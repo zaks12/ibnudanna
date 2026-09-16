@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://www.ibnudanna.com/</loc></url>
-<url><loc>https://www.ibnudanna.com/about</loc></url>
-<url><loc>https://www.ibnudanna.com/services</loc></url>
-<url><loc>https://www.ibnudanna.com/projects</loc></url>
-<url><loc>https://www.ibnudanna.com/approach</loc></url>
-<url><loc>https://www.ibnudanna.com/contact</loc></url>
+  <url>
+    <loc>https://ibnudanna.com/</loc>
+  </url>
+  <url>
+    <loc>https://ibnudanna.com/about</loc>
+  </url>
+  <url>
+    <loc>https://ibnudanna.com/services</loc>
+  </url>
+  <url>
+    <loc>https://ibnudanna.com/projects</loc>
+  </url>
+  <url>
+    <loc>https://ibnudanna.com/approach</loc>
+  </url>
+  <url>
+    <loc>https://ibnudanna.com/contact</loc>
+  </url>
 </urlset>
