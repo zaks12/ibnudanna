@@ -24,42 +24,63 @@ const services = [
     icon: Building2,
     title: 'Building Construction',
     description:
-      'Construction solutions focused on quality workmanship, thoughtful execution and dependable project delivery.',
-  },
+      'Construction solutions for residential, commercial and industrial buildings, from planning through completion.',
+  },s
   {
     number: '02',
     icon: HardHat,
     title: 'Civil Engineering',
     description:
-      'Civil engineering solutions designed around practical planning, technical requirements and reliable execution.',
+      'Civil engineering solutions supporting site development, infrastructure and practical project requirements.',
   },
   {
     number: '03',
     icon: Layers,
     title: 'Structural Works',
     description:
-      'Structural works approached with attention to precision, coordination, durability and project requirements.',
+      'Structural construction and reinforcement works approached with attention to precision, durability and project requirements.',
   },
   {
     number: '04',
     icon: Route,
-    title: 'Infrastructure Development',
+    title: 'Road Construction & Infrastructure',
     description:
-      'Solutions supporting the development and improvement of functional infrastructure and built environments.',
+      'Road construction and infrastructure works focused on reliable execution, functionality and lasting value.',
   },
   {
     number: '05',
+    icon: HardHat,
+    title: 'Borehole Drilling & Water Projects',
+    description:
+      'Borehole drilling and water-related projects designed to support dependable access to essential water resources.',
+  },
+  {
+    number: '06',
+    icon: ClipboardList,
+    title: 'Procurement & General Supply',
+    description:
+      'Procurement and general supply services supporting construction, engineering and project requirements.',
+  },
+  {
+    number: '07',
+    icon: ClipboardList,
+    title: 'Petroleum Products Supply',
+    description:
+      'Supply of petroleum products to support commercial, construction and operational requirements.',
+  },
+  {
+    number: '08',
     icon: ClipboardList,
     title: 'Project Management',
     description:
       'Structured project coordination focused on planning, communication, quality control and delivery.',
   },
   {
-    number: '06',
+    number: '09',
     icon: Wrench,
     title: 'Renovation & Maintenance',
     description:
-      'Renovation and maintenance solutions designed to improve, preserve and extend the value of existing spaces.',
+      'Renovation, refurbishment and maintenance solutions for existing buildings and facilities.',
   },
 ];
 
