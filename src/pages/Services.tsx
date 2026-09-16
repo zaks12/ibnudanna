@@ -25,7 +25,7 @@ const services = [
     title: 'Building Construction',
     description:
       'Construction solutions for residential, commercial and industrial buildings, from planning through completion.',
-  },s
+  },
   {
     number: '02',
     icon: HardHat,
