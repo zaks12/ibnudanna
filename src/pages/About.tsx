@@ -64,7 +64,7 @@ const pillars = [
     icon: Clock,
     title: 'Reliability',
     description:
-      'We deliver on commitments, meeting timelines and budgets with disciplined project management.',
+      'We deliver on commitments with disciplined project management and clear communication.',
   },
   {
     icon: HeartHandshake,
@@ -94,7 +94,8 @@ export default function About() {
           <div className="max-w-2xl">
             <div
               style={{
-                animation: 'fadeInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards',
+                animation:
+                  'fadeInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards',
                 opacity: 0,
               }}
             >
@@ -102,6 +103,7 @@ export default function About() {
                 About Us
               </span>
             </div>
+
             <h1
               className="mt-6 text-4xl font-bold leading-[1.1] text-white sm:text-5xl lg:text-6xl"
               style={{
@@ -110,8 +112,9 @@ export default function About() {
                 opacity: 0,
               }}
             >
-              About IBNU DANNA
+              About IBNU DANNA INTERNATIONAL LIMITED
             </h1>
+
             <p
               className="mt-6 max-w-xl text-lg leading-relaxed text-navy-100"
               style={{
@@ -135,28 +138,34 @@ export default function About() {
               <span className="text-sm font-semibold uppercase tracking-[0.15em] text-sky-600">
                 Who We Are
               </span>
+
               <h2 className="mt-4 text-3xl font-bold leading-tight text-navy-800 sm:text-4xl">
                 Building Beyond Structures
               </h2>
+
               <div className="mt-6 space-y-4 text-base leading-relaxed text-ink-muted">
                 <p>
-                  IBNU DANNA International Limited is a construction and
-                  engineering company focused on delivering quality projects
-                  with attention to planning, execution, safety, and
-                  reliability. We approach every build with a commitment to
-                  precision engineering and disciplined project management.
+                  IBNU DANNA INTERNATIONAL LIMITED is a Nigerian company
+                  focused on construction, engineering, infrastructure,
+                  project management and related supply solutions. The company
+                  approaches its work with attention to quality, precision,
+                  reliability and responsible project execution.
                 </p>
+
                 <p>
-                  Our team brings together technical expertise and practical
-                  field experience to manage projects from concept through
-                  completion. We work closely with clients to understand their
-                  needs, ensuring that every project reflects their goals
-                  while meeting industry standards for quality and safety.
+                  Its service areas include building construction, civil
+                  engineering, structural works, road construction and
+                  infrastructure, borehole drilling and water projects,
+                  procurement and general supply, petroleum products supply,
+                  project management, and renovation and maintenance.
                 </p>
+
                 <p>
-                  This is placeholder company copy and can be edited to reflect
-                  the full story, background, and positioning of IBNU DANNA
-                  International Limited.
+                  IBNU DANNA INTERNATIONAL LIMITED, RC 1321679, works to
+                  understand project requirements, coordinate resources and
+                  deliver practical solutions aligned with client needs.
+                  Attention to planning, communication, safety and quality
+                  remains central to the company's approach.
                 </p>
               </div>
             </Reveal>
@@ -171,6 +180,7 @@ export default function About() {
                     loading="lazy"
                   />
                 </div>
+
                 <div className="absolute -bottom-6 -left-6 hidden h-32 w-32 rounded-xl border-l-2 border-t-2 border-sky-500 sm:block" />
                 <div className="absolute -right-4 -top-4 h-24 w-24 rounded-xl border-r-2 border-b-2 border-navy-300/40" />
               </div>
@@ -187,6 +197,7 @@ export default function About() {
               <span className="text-sm font-semibold uppercase tracking-[0.15em] text-sky-600">
                 Our Direction
               </span>
+
               <h2 className="mt-2 text-3xl font-bold leading-tight text-navy-800 sm:text-4xl">
                 Vision &amp; Mission
               </h2>
@@ -199,9 +210,11 @@ export default function About() {
                 <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-sky-50 transition-colors duration-200 group-hover:bg-sky-100">
                   <Eye className="h-7 w-7 text-sky-600" />
                 </div>
+
                 <h3 className="mt-6 text-xl font-bold text-navy-800">
                   Our Vision
                 </h3>
+
                 <p className="mt-4 text-base leading-relaxed text-ink-muted">
                   To be a construction and engineering company recognized for
                   quality delivery, responsible development, and lasting value
@@ -216,9 +229,11 @@ export default function About() {
                 <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-navy-50 transition-colors duration-200 group-hover:bg-navy-100">
                   <Target className="h-7 w-7 text-navy-600" />
                 </div>
+
                 <h3 className="mt-6 text-xl font-bold text-navy-800">
                   Our Mission
                 </h3>
+
                 <p className="mt-4 text-base leading-relaxed text-ink-muted">
                   To deliver construction and engineering solutions that meet
                   client needs through precision planning, disciplined
@@ -239,9 +254,11 @@ export default function About() {
               <span className="text-sm font-semibold uppercase tracking-[0.15em] text-sky-600">
                 What Guides Us
               </span>
+
               <h2 className="mt-2 text-3xl font-bold leading-tight text-navy-800 sm:text-4xl">
                 Core Values
               </h2>
+
               <p className="mt-4 text-lg leading-relaxed text-ink-muted">
                 The principles that shape every project, partnership, and
                 decision we make.
@@ -256,9 +273,11 @@ export default function About() {
                   <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-sky-50 transition-colors duration-200 group-hover:bg-sky-100">
                     <value.icon className="h-6 w-6 text-sky-600" />
                   </div>
+
                   <h3 className="mt-5 text-lg font-bold text-navy-800">
                     {value.title}
                   </h3>
+
                   <p className="mt-3 text-sm leading-relaxed text-ink-muted">
                     {value.description}
                   </p>
@@ -278,11 +297,12 @@ export default function About() {
                 <div className="overflow-hidden rounded-xl">
                   <img
                     src={portraitImage}
-                    alt="Professional portrait of Yakuba Usman Danna, Chief Executive Officer"
+                    alt="Professional portrait of Yakuba Usman Danna, Chief Executive Officer of IBNU DANNA INTERNATIONAL LIMITED"
                     className="h-[480px] w-full object-cover transition-transform duration-500 ease-smooth hover:scale-105"
                     loading="lazy"
                   />
                 </div>
+
                 <div className="absolute -right-4 -bottom-4 h-28 w-28 rounded-xl border-r-2 border-b-2 border-sky-500" />
               </div>
             </Reveal>
@@ -291,26 +311,31 @@ export default function About() {
               <span className="text-sm font-semibold uppercase tracking-[0.15em] text-sky-600">
                 Leadership
               </span>
+
               <h2 className="mt-4 text-3xl font-bold leading-tight text-navy-800 sm:text-4xl">
                 Leadership with a clear vision for lasting value.
               </h2>
+
               <div className="mt-6">
                 <h3 className="text-xl font-bold text-navy-800">
                   Yakuba Usman Danna
                 </h3>
+
                 <p className="mt-1 text-sm font-semibold uppercase tracking-wider text-sky-600">
                   Chief Executive Officer
                 </p>
+
                 <div className="mt-5 space-y-4 text-base leading-relaxed text-ink-muted">
                   <p>
-                    Yakuba Usman Danna provides strategic leadership at Ibnu
-                    Danna International Limited, with a strong commitment to
+                    Yakuba Usman Danna provides strategic leadership at IBNU
+                    DANNA INTERNATIONAL LIMITED, with a strong commitment to
                     excellence, innovation and sustainable development. His
                     leadership vision is centered on building a company
                     recognized for professionalism, quality delivery and
                     lasting value across the construction and engineering
                     sector.
                   </p>
+
                   <p>
                     Under his leadership, the company continues to pursue
                     opportunities that combine technical expertise, responsible
@@ -330,6 +355,7 @@ export default function About() {
             <span className="text-sm font-semibold uppercase tracking-[0.15em] text-sky-400">
               Why IBNU DANNA
             </span>
+
             <h2 className="mt-4 max-w-2xl text-3xl font-bold leading-tight text-white sm:text-4xl">
               Built around the standards that matter.
             </h2>
@@ -340,9 +366,11 @@ export default function About() {
               <Reveal key={pillar.title} delay={i * 100}>
                 <div className="group border-t border-navy-700 pt-6">
                   <pillar.icon className="h-8 w-8 text-sky-400 transition-transform duration-200 group-hover:scale-110" />
+
                   <h3 className="mt-5 text-lg font-bold text-white">
                     {pillar.title}
                   </h3>
+
                   <p className="mt-3 text-sm leading-relaxed text-navy-100">
                     {pillar.description}
                   </p>
@@ -361,10 +389,12 @@ export default function About() {
               <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
                 Let&apos;s Build Something Remarkable.
               </h2>
+
               <p className="mt-6 text-lg leading-relaxed text-white/90">
                 Have a project in mind? Let&apos;s discuss how we can help turn
                 your plans into reality.
               </p>
+
               <button
                 onClick={() => navigate('/contact' as RoutePath)}
                 className="mt-10 inline-flex items-center gap-2 rounded-lg bg-navy-800 px-8 py-4 text-base font-semibold text-white transition-colors duration-200 ease-smooth hover:bg-navy-900"
