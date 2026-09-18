@@ -5,8 +5,7 @@ import type { RoutePath } from '@/lib/router';
 interface LeadershipProps {
   navigate: (path: RoutePath) => void;
 }
-
- const portraitImage = '/assets/images/YUD1.jpeg';
+const portraitImage = '/assets/images/YUD.jpeg';
 
 export default function Leadership({ navigate }: LeadershipProps) {
   return (
