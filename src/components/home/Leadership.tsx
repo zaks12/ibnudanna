@@ -6,8 +6,7 @@ interface LeadershipProps {
   navigate: (path: RoutePath) => void;
 }
 
-const portraitImage =
-  'https://images.pexels.com/photos/17049771/pexels-photo-17049771.jpeg?auto=compress&cs=tinysrgb&w=800';
+ const portraitImage = '/assets/images/YUD1.jpeg';
 
 export default function Leadership({ navigate }: LeadershipProps) {
   return (

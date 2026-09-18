@@ -17,8 +17,12 @@ const heroImage =
 const introImage =
   'https://images.pexels.com/photos/13758319/pexels-photo-13758319.jpeg?auto=compress&cs=tinysrgb&w=1200';
 
-const portraitImage =
-  'https://images.pexels.com/photos/17049771/pexels-photo-17049771.jpeg?auto=compress&cs=tinysrgb&w=800';
+const portraitImages = [
+  '/assets/images/YUD1.jpeg',
+  '/assets/images/YUD2.jpeg',
+  '/assets/images/YUD3.jpeg',
+  '/assets/images/YUD4.jpeg',
+];
 
 const coreValues = [
   {
@@ -292,21 +296,31 @@ export default function About() {
       <section className="bg-cream py-section sm:py-section-sm lg:py-section">
         <Container>
           <div className="grid items-center gap-12 lg:grid-cols-5 lg:gap-16">
-            <Reveal className="lg:col-span-2">
-              <div className="relative mx-auto max-w-sm">
-                <div className="overflow-hidden rounded-xl">
-                  <img
-                    src={portraitImage}
-                    alt="Professional portrait of Yakuba Usman Danna, Chief Executive Officer of IBNU DANNA INTERNATIONAL LIMITED"
-                    className="h-[480px] w-full object-cover transition-transform duration-500 ease-smooth hover:scale-105"
-                    loading="lazy"
-                  />
-                </div>
+          <Reveal className="lg:col-span-2">
+  <div className="relative">
+    <div className="grid grid-cols-2 gap-3">
+      {portraitImages.map((image, index) => (
+        <div
+          key={image}
+          className={`overflow-hidden rounded-xl ${
+            index === 0 ? 'col-span-2' : ''
+          }`}
+        >
+          <img
+            src={image}
+            alt={`Yakuba Usman Danna, Chief Executive Officer of IBNU DANNA INTERNATIONAL LIMITED — photo ${index + 1}`}
+            className={`w-full object-cover transition-transform duration-500 ease-smooth hover:scale-105 ${
+              index === 0 ? 'h-[360px] sm:h-[420px]' : 'h-[180px] sm:h-[220px]'
+            }`}
+            loading="lazy"
+          />
+        </div>
+      ))}
+    </div>
 
-                <div className="absolute -right-4 -bottom-4 h-28 w-28 rounded-xl border-r-2 border-b-2 border-sky-500" />
-              </div>
-            </Reveal>
-
+    <div className="pointer-events-none absolute -right-4 -bottom-4 h-28 w-28 rounded-xl border-r-2 border-b-2 border-sky-500" />
+  </div>
+</Reveal>
             <Reveal delay={150} className="lg:col-span-3">
               <span className="text-sm font-semibold uppercase tracking-[0.15em] text-sky-600">
                 Leadership
